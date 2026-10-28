@@ -1,2 +1,7 @@
+0.2.0
+- Portado para Python 3, PyQt5 e QGIS 3.x.
+- Preservados o algoritmo original, a interface e os recursos gráficos.
+- Compatibilidade funcional com QGIS 3.44 ainda requer teste no aplicativo.
+
 0.1.1
 - Fix mulipart geometry bug.
