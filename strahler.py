@@ -353,7 +353,8 @@ class Strahler(QObject):
         # Build the spatial index for faster lookup.
         featureList = list( self.layer.getFeatures() )
         self.spatialIdx = QgsSpatialIndex()
-        [self.spatialIdx.addFeature(feature) for feature in featureList]
+        for feature in featureList:
+            self.spatialIdx.addFeature(feature)
 
         # Get the ids of all the features in the index that are within
         # the bounding box of the current feature because these are the ones
