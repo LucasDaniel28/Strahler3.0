@@ -24,7 +24,6 @@ from PyQt5.QtCore import pyqtSignal, pyqtSlot, QObject, QSettings, QTranslator, 
 from PyQt5.QtGui import QIcon
 from PyQt5.QtWidgets import QAction, QMessageBox
 from qgis.core import *
-from . import resources
 from .strahler_dialog import StrahlerDialog
 import os.path
 
@@ -167,7 +166,7 @@ class Strahler(QObject):
     def initGui(self):
         """Create the menu entries and toolbar icons inside the QGIS GUI."""
 
-        icon_path = ':/plugins/Strahler/img/icon.png'
+        icon_path = os.path.join(self.plugin_dir, 'img', 'icon.png')
         self.add_action(
             icon_path,
             text=self.tr(u'Strahler'),
