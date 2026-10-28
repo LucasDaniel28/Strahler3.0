@@ -20,3 +20,8 @@ Example
 
 ![Strahler order](/img/demo.png "Strahler order")
 
+
+
+## Compatibilidade
+
+Esta versão mantém a interface e o algoritmo originais e adapta o plugin para Python 3 e QGIS 3.44, utilizando PyQt5. A execução funcional ainda precisa ser validada dentro do QGIS 3.44.

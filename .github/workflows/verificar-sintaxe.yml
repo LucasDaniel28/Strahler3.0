@@ -1,0 +1,23 @@
+name: Verificar sintaxe Python
+
+on:
+  push:
+    branches:
+      - main
+      - migracao/qgis-3-44
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  sintaxe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Verificar sintaxe
+        run: python -m compileall -q __init__.py strahler.py strahler_dialog.py resources.py
