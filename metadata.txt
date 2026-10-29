@@ -1,41 +1,21 @@
-# This file contains metadata for your plugin. Since 
-# version 2.0 of QGIS this is the proper way to supply 
-# information about a plugin. The old method of 
-# embedding metadata in __init__.py will 
-# is no longer supported since version 2.0.
-
-# This file should be included when you package your plugin.
-
-# Mandatory items:
+# Metadados do complemento QGIS
 
 [general]
 name=Strahler
 qgisMinimumVersion=3.0
-description=This plugin computes the Strahler number of a line network.
+description=Calcula a ordem de Strahler para segmentos de redes lineares.
 version=0.2.0
 author=Alexandre Delahaye
 email=menoetios@gmail.com
 
-about=This plugin adds a user-specified attribute to the shapefile containing the analyzed line network. This attribute will contain the Strahler number (https://en.wikipedia.org/wiki/Strahler_number) of each segment (=line) of the network. User must first select the root of the network.
+about=Calcula a ordem de Strahler de uma rede linear e grava os resultados em um campo de atributo. Selecione um único segmento raiz antes de executar. A rede deve estar segmentada nas junções; geometrias multipart não são suportadas. O algoritmo é topológico e não utiliza um Modelo Digital de Elevação.
 
 tracker=https://github.com/ArMoraer/QGISStrahler/issues
-repository=https://github.com/ArMoraer/QGISStrahler
-# End of mandatory metadata
+repository=https://github.com/LucasDaniel28/Strahler3.0
 
-# Recommended items:
-
-# Uncomment the following line and add your changelog:
-# changelog=
-
-# Tags are comma separated with spaces allowed
-tags=layers, vector, line
-
-homepage=https://github.com/ArMoraer/QGISStrahler
+tags=layers, vector, line, hydrology, strahler
+homepage=https://github.com/LucasDaniel28/Strahler3.0
 category=Vector
 icon=img/icon.png
-# experimental flag
 experimental=False
-
-# deprecated flag (applies to the whole plugin, not just a single version)
 deprecated=False
-
