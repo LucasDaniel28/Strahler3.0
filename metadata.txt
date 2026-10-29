@@ -10,7 +10,7 @@ email=menoetios@gmail.com
 
 about=Calcula a ordem de Strahler de uma rede linear e grava os resultados em um campo de atributo. Selecione um único segmento raiz antes de executar. A rede deve estar segmentada nas junções; geometrias multipart não são suportadas. O algoritmo é topológico e não utiliza um Modelo Digital de Elevação.
 
-tracker=https://github.com/ArMoraer/QGISStrahler/issues
+tracker=https://github.com/LucasDaniel28/Strahler3.0/issues
 repository=https://github.com/LucasDaniel28/Strahler3.0
 
 tags=layers, vector, line, hydrology, strahler
