@@ -5,6 +5,7 @@ name=Strahler
 qgisMinimumVersion=3.0
 description=Calcula a ordem de Strahler para segmentos de redes lineares.
 version=0.2.0
+license=GPL-2.0-or-later
 author=Alexandre Delahaye
 email=menoetios@gmail.com
 
