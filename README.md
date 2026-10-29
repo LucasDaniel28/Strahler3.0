@@ -81,7 +81,7 @@ O repositório também utiliza GitHub Actions para executar uma verificação au
 
 ## Créditos e licença
 
-O plugin original foi desenvolvido por **Alexandre Delahaye** em 2016. Esta adaptação mantém os créditos do autor original e segue os termos da **GNU General Public License, versão 2 ou, a critério do usuário, qualquer versão posterior (GPL-2.0-or-later)**.
+O plugin original foi desenvolvido por **Alexandre Delahaye** em 2016. Esta adaptação mantém os créditos do autor original e segue os termos da **GNU General Public License, versão 2 ou, a critério do usuário, qualquer versão posterior (GPL-2.0-or-later)**. O texto integral da licença está disponível em [`LICENSE`](LICENSE). Os arquivos Python modificados incluem avisos de alteração e data; os recursos gráficos e de tradução mantidos no repositório foram comparados com os do projeto original.
 
 - Projeto original: [ArMoraer/QGISStrahler](https://github.com/ArMoraer/QGISStrahler)
 - Repositório desta adaptação: [LucasDaniel28/Strahler3.0](https://github.com/LucasDaniel28/Strahler3.0)
