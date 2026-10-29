@@ -7,6 +7,8 @@
                              -------------------
         begin                : 2016-02-21
         git sha              : $Format:%H$
+        modified             : 2026-10-28 by Lucas Daniel
+        changes              : Python 3 and PyQt5 compatibility adaptations
         copyright            : (C) 2016 by Alexandre Delahaye
         email                : menoetios@gmail.com
  ***************************************************************************/
