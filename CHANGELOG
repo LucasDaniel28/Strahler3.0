@@ -1,7 +1,8 @@
 0.2.0
-- Portado para Python 3, PyQt5 e QGIS 3.x.
-- Preservados o algoritmo original, a interface e os recursos gráficos.
-- Compatibilidade funcional com QGIS 3.44 ainda requer teste no aplicativo.
+- Adaptado para Python 3, PyQt5 e QGIS 3.x.
+- Preservados o objetivo, o algoritmo, a interface e os recursos gráficos do plugin original.
+- Validado no QGIS 3.44.15, com conferência dos cálculos de Strahler na rede do Rio Preto de Pontaleão, bacia do Rio Madeira.
+- Adicionada verificação automática de sintaxe com GitHub Actions.
 
 0.1.1
-- Fix mulipart geometry bug.
+- Corrigido problema relacionado a geometrias multipart.
