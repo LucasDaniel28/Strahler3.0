@@ -79,6 +79,10 @@ O repositório também utiliza GitHub Actions para executar uma verificação au
 - API do QGIS
 - GitHub Actions
 
+## Adaptação e validação
+
+A adaptação para versões atuais do QGIS e a validação dos cálculos foram realizadas por **Lucas Daniel**, em parceria com a **Engenheira Cartógrafa e Agrimensora Laryssa Gaia**. A área utilizada para conferência dos resultados foi o Rio Preto de Pontaleão, na bacia do Rio Madeira.
+
 ## Créditos e licença
 
 O plugin original foi desenvolvido por **Alexandre Delahaye** em 2016. Esta adaptação mantém os créditos do autor original e segue os termos da **GNU General Public License, versão 2 ou, a critério do usuário, qualquer versão posterior (GPL-2.0-or-later)**.
